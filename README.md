@@ -11,6 +11,10 @@ Check out my [YouTube video](https://youtu.be/M51bMMVWbC8?si=pfud7bHgjYDnO2_z) f
 
 Thank you to JLCCNC for helping create the extruder mount and build plate for my [4 Axis Core R-Theta Printer](https://github.com/jyjblrd/Core-R-Theta-4-Axis-Printer).
 
+## Local Usage (on your own PC)
+Install and configure Python 3 and Jupyter Notebook ([see guide](https://gist.github.com/PixlRainbow/c9a75f4ccbea98c357db9e4d61c11cf8)), then open the `main.ipynb` file.  
+Do not run the cell that contains `!apt-get install -qq xvfb libgl1-mesa-glx`; assuming you are using Linux, instead install `xvfb` and `libgl1-mesa-glx` from a separate terminal window, with administrative permissions as required. If you are using a Linux distribution with a graphical interface, or if you are using Windows, installation of these two libraries may not be needed at all.
+
 
 
 Bibtex Citation:
